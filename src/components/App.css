@@ -1,0 +1,120 @@
+/* Modo Dark Mode */
+.darkMode{
+  background-color: black;
+  color: white;
+}
+
+.card-dark{
+  background-color: gray;
+  text-align: center;
+}
+/* ---------------------------------------------- */
+
+/* Css de cards */
+
+
+.card-productos{
+  margin: 4px;
+  justify-content: center;
+}
+
+.card-producto{
+  width: 18rem;
+  margin: 4px;
+}
+
+.card-Body, .precio-cards{
+  text-align: center;
+}
+
+.div-boton-cards{
+  border-top: 1px dashed black;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+}
+
+.card-cart{
+  max-width: 340px;
+}
+
+/* ---------------------------------------------------- */
+
+/* Css cards/Carrusel */
+.titulo-carrusel{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.div-carrusel{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-carrusel{
+  width: 80%;
+  border: 1px dotted black;
+  border-radius: 10px;
+  box-shadow:-8px 0px 20px -10px black, 
+              8px 0px 20px -10px black;
+}
+
+.altura-carrusel{
+  height: 220px;
+}
+
+.card-carrusel{
+  align-items: center;
+}
+
+.div-boton-cards-carrusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.link-card{
+  height: 20px;
+}
+
+.boton-card{
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+/* ------------------------------------------------------------------ */
+
+/* carrito */
+
+.div-carrito-vacio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 268.88px);
+}
+
+.cart-container {
+  margin-top: 3%;
+  margin-left: 26,5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 268.88px);
+}
+
+/* --------------------------------------- */
+
+.contenedor-item-list{
+  height: calc(100vh - 273px);
+}
