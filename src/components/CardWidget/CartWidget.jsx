@@ -8,7 +8,7 @@ export const CartWidget = () => {
     return (
         
         <Link className="nav-link" to={'/Cart'}>
-            <i class="fa-solid fa-cart-shopping fa-2x"></i>
+            <i className="fa-solid fa-cart-shopping fa-2x"></i>
             {getItemQuantity() > 0 && <span className="cantCarrito">{getItemQuantity()}</span>}
         </Link>
     );
